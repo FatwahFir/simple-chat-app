@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //TODO: Fixing Theme Bug
     return BlocBuilder<ThemeCubit, ThemeData>(
       builder: (context, state) {
         return MaterialApp(
