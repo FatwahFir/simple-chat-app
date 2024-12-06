@@ -12,7 +12,11 @@ While the design and flow of the app take inspiration from the video, the implem
 
 ## 🎥 Live Demo
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+https://github.com/user-attachments/assets/5f294bc8-8778-4b7d-a980-ca024bcbfbef
+
+https://github.com/user-attachments/assets/282753e3-e99b-496d-b5c8-ec03444636e1
+
+<!-- <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <video controls width="300">
     <source src="assets/videos/1.mp4" type="video/mp4">
     Your browser does not support the video tag.
@@ -21,7 +25,7 @@ While the design and flow of the app take inspiration from the video, the implem
     <source src="assets/videos/2.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
-</div>
+</div> -->
 
 ## 📱 Screenshots
 
