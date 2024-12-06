@@ -12,20 +12,11 @@ While the design and flow of the app take inspiration from the video, the implem
 
 ## 🎥 Live Demo
 
-<!-- https://github.com/user-attachments/assets/5f294bc8-8778-4b7d-a980-ca024bcbfbef
+Play the videos simultaneously for a better experience.
 
-https://github.com/user-attachments/assets/282753e3-e99b-496d-b5c8-ec03444636e1 -->
-<div style="display: flex; gap: 10px; align-items: center;">
+https://github.com/user-attachments/assets/5f294bc8-8778-4b7d-a980-ca024bcbfbef
 
-<a href="https://github.com/user-attachments/assets/5f294bc8-8778-4b7d-a980-ca024bcbfbef" target="_blank">
-  <img src="https://via.placeholder.com/120x240.png?text=Video+1+Preview" alt="Video 1" width="120">
-</a>
-
-<a href="https://github.com/user-attachments/assets/282753e3-e99b-496d-b5c8-ec03444636e1" target="_blank">
-  <img src="https://via.placeholder.com/120x240.png?text=Video+2+Preview" alt="Video 2" width="120">
-</a>
-
-</div>
+https://github.com/user-attachments/assets/282753e3-e99b-496d-b5c8-ec03444636e1
 
 <!-- <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <video controls width="300">
