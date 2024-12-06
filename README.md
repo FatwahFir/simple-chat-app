@@ -9,16 +9,16 @@ While the design and flow of the app take inspiration from the video, the implem
 - **Real-Time Messaging**: Chat with others in real time using Firebase Firestore.
 - **User Authentication**: Login and register with Firebase Authentication.
 - **User List**: View a list of registered users and initiate chats.
-<!-- 
+
 ## 🎥 Live Demo
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <video controls width="600">
-    <source src="assets/videos/chat_demo.mp4" type="video/mp4">
+    <video controls width="300">
+    <source src="assets/videos/1.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
-    <video controls width="600">
-    <source src="assets/videos/auth_demo.mp4" type="video/mp4">
+    <video controls width="300">
+    <source src="assets/videos/2.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
 </div>
@@ -26,11 +26,11 @@ While the design and flow of the app take inspiration from the video, the implem
 ## 📱 Screenshots
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="assets/images/login_screen.jpg" alt="Login Screen" width="300"/>
-  <img src="assets/images/chat_list_screen.jpg" alt="Chat List" width="300"/>
-  <img src="assets/images/chat_screen.jpg" alt="Chat Screen" width="300"/>
-  <img src="assets/images/profile_screen.jpg" alt="Profile Screen" width="300"/>
-</div> -->
+  <img src="assets/images/1.jpg" alt="Login Screen" width="300"/>
+  <img src="assets/images/2.jpg" alt="Chat List" width="300"/>
+  <img src="assets/images/3.jpg" alt="Chat Screen" width="300"/>
+  <img src="assets/images/4.jpg" alt="Profile Screen" width="300"/>
+</div>
 
 ## 🛠 Tech Stack
 
