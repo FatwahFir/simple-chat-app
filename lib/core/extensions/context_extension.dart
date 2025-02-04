@@ -1,4 +1,6 @@
+import 'package:chat_app/core/themes/theme_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 extension ContextExt on BuildContext {
   ThemeData get theme => Theme.of(this);
@@ -13,4 +15,8 @@ extension ContextExt on BuildContext {
   Color get backgroundColor => theme.colorScheme.surface;
   Color get tertiary => theme.colorScheme.tertiary;
   Color get inversPrimary => theme.colorScheme.inversePrimary;
+
+  ThemeProvider get themeProvider => read<ThemeProvider>();
+  ThemeData? get themeData => themeProvider.theme;
+  bool get isDarkmode => themeProvider.isDarkMode();
 }

@@ -1,4 +1,3 @@
-import 'package:chat_app/features/Settings/presentation/cubit/theme_cubit.dart';
 import 'package:chat_app/features/auth/data/datasources/auth_remote_data_src.dart';
 import 'package:chat_app/features/auth/data/repositories/auth_repository_impl.dart';
 import 'package:chat_app/features/auth/domain/repositories/auth_repository.dart';
@@ -38,9 +37,6 @@ Future<void> init() async {
         getMessages: sl(),
         sendMessage: sl(),
       ),
-    )
-    ..registerFactory(
-      () => ThemeCubit(),
     )
 
     //Usecases

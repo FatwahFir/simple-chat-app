@@ -1,5 +1,5 @@
 import 'package:chat_app/core/services/injector_container.dart';
-import 'package:chat_app/features/Settings/presentation/cubit/theme_cubit.dart';
+import 'package:chat_app/features/Settings/presentation/cubit/settings_cubit.dart';
 import 'package:chat_app/features/Settings/presentation/pages/settings_page.dart';
 import 'package:chat_app/features/auth/presentation/cubit/auth_cubit.dart';
 import 'package:chat_app/features/auth/presentation/pages/sign_in_page.dart';
@@ -53,9 +53,8 @@ Route<dynamic> generateRoute(RouteSettings settings) {
       );
     case SettingsPage.routeName:
       return _pageBuilder(
-        (_) => BlocProvider.value(
-          // Menggunakan BlocProvider.value untuk ThemeCubit
-          value: sl<ThemeCubit>(), // Gunakan instance yang ada
+        (_) => BlocProvider(
+          create: (_) => SettingsCubit(),
           child: const SettingsPage(),
         ),
         settings: settings,

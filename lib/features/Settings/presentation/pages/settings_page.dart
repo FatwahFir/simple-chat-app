@@ -1,8 +1,9 @@
 import 'package:chat_app/core/extensions/context_extension.dart';
-import 'package:chat_app/features/Settings/presentation/cubit/theme_cubit.dart';
+import 'package:chat_app/core/themes/dark_mode.dart';
+import 'package:chat_app/core/themes/theme_provider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:provider/provider.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});
@@ -28,15 +29,11 @@ class SettingsPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             const Text('Dark Mode'),
-            BlocBuilder<ThemeCubit, ThemeData>(
-              builder: (context, state) {
-                final isDarkMode = state.brightness == Brightness.dark;
-                return CupertinoSwitch(
-                    value: isDarkMode,
-                    onChanged: (val) =>
-                        context.read<ThemeCubit>().toggleTheme());
-              },
-            ),
+            CupertinoSwitch(
+                value: context.watch<ThemeProvider>().theme == darkMode,
+                onChanged: (_) {
+                  context.themeProvider.toggleTheme();
+                }),
           ],
         ),
       ),
