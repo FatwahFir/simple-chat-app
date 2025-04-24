@@ -123,4 +123,4 @@ Feel free to open an issue or reach out on GitHub for any questions or feedback!
 
 ## 📄 License
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute the code as per the terms of the license.
+You are free to use, modify, and distribute the code.
